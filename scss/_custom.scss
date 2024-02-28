@@ -6,6 +6,10 @@
 //BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+html {
+  scroll-padding-top: 4rem;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 18px;

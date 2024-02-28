@@ -3,6 +3,9 @@
 .navigation {
   width: 100%;
   z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .navigation-content {
@@ -98,6 +101,13 @@
 
   .mobile-menu {
     display: none;
+  }
+
+  .close-open {
+    display: none;
+    .open {
+      display: none;
+    }
   }
   .desktop-menu {
     display: flex;

@@ -5,6 +5,7 @@ const menu = document.getElementById("menu");
 
 open.addEventListener("click", handleOpen);
 close.addEventListener("click", handleClose);
+menu.addEventListener("click", handleClose);
 
 function handleOpen() {
   navigation.classList.add("overlay");
