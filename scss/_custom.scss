@@ -1,0 +1,43 @@
+@use "./variables" as *;
+
+//FONTS
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..9000;1,100..900&display=swap");
+
+//BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.invite-btn {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background: $gradient;
+  background: linear-gradient(to right, $lime-green, $cyan);
+  color: $white;
+}
+
+p {
+  color: $grayish-blue;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 300;
+  color: $dark-blue;
+  line-height: 1.2;
+  font-size: 37px;
+
+  span {
+    display: block;
+  }
+}
